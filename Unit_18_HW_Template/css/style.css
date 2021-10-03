@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: #373738;
+  background-color:#667e6d;
   padding: 15px;
 }
 header ul {
@@ -17,7 +17,7 @@ header p {
   display: inline-block;
 }
 .heroImg {
-  background-color: #EBEBEB;
+  background-color: #edeee8;
   padding: 100px 15px;
 }
 .content {
@@ -29,13 +29,19 @@ header p {
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color:#667e6d;
   color: white;
   font-size: 15px;
-  border-radius: 4px;
+  font-weight: 500;
+  font-family: Monsterrat, sans-serif;
+  letter-spacing:0.8px;
+  text-transform: uppercase;
+  border-radius: 2px;
+  opacity:1;
+  
 }
 footer {
-  background-color: #373738;
+  background-color:#667e6d;
   padding: 5px;
   color: white;
 }
