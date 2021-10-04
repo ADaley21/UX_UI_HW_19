@@ -4,7 +4,7 @@ html{
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
   color:#252531;
   line-height:1.6;
   height:100%;
@@ -25,7 +25,7 @@ header {
 header ul {
   float: right;
   color: white;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Karla', sans-serif;
   
 }
 header li {
@@ -44,12 +44,22 @@ header li {
   color:#D3ECFF;
 }
 
+.header ul li .active {
+  color:#4169E1;
+  background: transparent;
+  font-weight:bold;
+  text-decoration:underline;
+  text-underline-position: under;
+}
+
+
+
 header p {
   display: inline-block;
 }
 
 .heroImg {
-  background-color:#D3ECFF;
+  background-color:#EBEBEB;
   padding: 100px 15px;
   height: 1%;
 }
@@ -58,7 +68,7 @@ header p {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
-  background-color:#D3ECFF;
+  background-color:#EBEBEB;
   text-align: center;
 
 }
@@ -69,16 +79,18 @@ header p {
 }
 
 button {
-  padding: 15px;
+  padding: 10px;
   background-color:#667e6d;
-  color:#D3ECFF;
+  color:white;
   font-size: 15px;
   font-weight: 500;
-  font-family: Monsterrat, sans-serif;
+  font-family: 'Karla', sans-serif;
   letter-spacing:1px;
   text-transform: uppercase;
-  border-radius: 5px;
+  border-radius: 0.5px;
+  border-color:#252531;
   opacity:1;
+ 
 }
 
 .button:hover {
@@ -112,8 +124,12 @@ footer li {
 
 .flexContainer div {
   width: 33%;
-  padding: 25px;
-  color:black;
+  padding: 20px;
+  margin: 10px;
+  color:white;
+  text-align: center;
+  background-color:#667e6d;
+
 }
 
 /* My Work Section */
