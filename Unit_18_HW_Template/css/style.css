@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
 }
@@ -16,17 +20,26 @@ header li {
 header p {
   display: inline-block;
 }
+
 .heroImg {
   background-color: #edeee8;
   padding: 100px 15px;
+  width: 10%
+  height:1%;
 }
 .content {
   max-width: 300px;
   margin: 0 auto;
   padding: 50px;
-  background-color: #FFFFFF;
+  background-color: #edeee8;
   text-align: center;
 }
+
+.primary-button {
+  background: linear-gradient( to bottom right, rgb(240, 168, 168), rgb(240, 120, 120) );
+  border: 1px solid rgba(240, 120, 120, 0.5);
+}
+
 button {
   padding: 15px;
   background-color:#667e6d;
@@ -34,12 +47,17 @@ button {
   font-size: 15px;
   font-weight: 500;
   font-family: Monsterrat, sans-serif;
-  letter-spacing:0.8px;
+  letter-spacing:1px;
   text-transform: uppercase;
-  border-radius: 2px;
+  border-radius: 5px;
   opacity:1;
-  
 }
+
+.button:hover {
+  box-shadow: 0 0 15px rgba(33, 33, 33, 0.4);
+}
+
+
 footer {
   background-color:#667e6d;
   padding: 5px;
