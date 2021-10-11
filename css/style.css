@@ -87,7 +87,7 @@ button {
   font-family: 'Karla', sans-serif;
   letter-spacing:1px;
   text-transform: uppercase;
-  border-radius: 0.5px;
+  border-radius: round;
   border-color:#252531;
   opacity:1;
  
@@ -175,4 +175,50 @@ footer li {
 }
 .content3 {
   grid-area: content3;
+}
+
+/*Case Study1*/
+
+
+a{
+  color:black;
+}
+
+.a:hover{
+  color:red;
+}
+
+.container {
+  color:#667e6d;
+  text-align: center;
+  
+}
+
+.page-section.vertical-alignment--middle:not(.content-collection):not(.gallery-section):not(.user-items-list-section).section-height--medium>.content-wrapper {
+  padding-top: 6.6vmax;
+  padding-bottom: 6.6vmax;
+}
+
+.page-section.horizontal-alignment--center>.content-wrapper {
+  justify-content: center;
+}
+
+.display-4{
+  color:black;
+}
+
+.card-title{
+  color:#AC0066;
+  font-weight: 300;
+  text-align:center;
+  font-display: bold;
+
+}
+
+.btn{
+  color:white;
+  background-color:#AC0066;
+  width: 20%;
+  border:white;
+
 }
