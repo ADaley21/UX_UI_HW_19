@@ -194,15 +194,6 @@ a{
   
 }
 
-.page-section.vertical-alignment--middle:not(.content-collection):not(.gallery-section):not(.user-items-list-section).section-height--medium>.content-wrapper {
-  padding-top: 6.6vmax;
-  padding-bottom: 6.6vmax;
-}
-
-.page-section.horizontal-alignment--center>.content-wrapper {
-  justify-content: center;
-}
-
 .display-4{
   color:black;
 }
@@ -215,10 +206,15 @@ a{
 
 }
 
+
+.col{
+  align-content: center;
+}
+
 .btn{
   color:white;
   background-color:#AC0066;
-  width: 20%;
+  width: 50%;
   border:white;
 
 }
