@@ -179,6 +179,13 @@ footer li {
 
 /*Case Study1*/
 
+.center {
+ display:block;
+ margin-left:auto;
+ margin-right: auto;
+ width:250%
+}
+
 
 a{
   color:black;
