@@ -182,10 +182,27 @@ footer li {
 .center {
  display:block;
  margin-left:auto;
- margin-right: auto;
+ margin-right:auto;
  width:250%
 }
 
+.container {
+  position:relative;
+  text-align: center;
+  color:red;
+  }
+
+.centered {
+  position:static;
+  top:50%;
+  left:50%;
+  transform:translate(-50% -50%);
+}
+
+#sitemapping{
+  width:400%;
+  height:auto;
+}
 
 a{
   color:black;
@@ -196,10 +213,10 @@ a{
 }
 
 .container {
-  color:#667e6d;
+  color:black;
   text-align: center;
-  
 }
+
 
 .display-4{
   color:black;
@@ -212,7 +229,35 @@ a{
   font-display: bold;
 
 }
+.card{
+  background-color:#E3F3FF;
+  text-align:justify;
+  margin:auto;
+  width:100%;
+ 
+}
 
+.card-ideation{
+  color:#AC0066;
+  font-weight: 300;
+  text-align:center;
+  font-display: bold;
+}
+
+#userpersona{
+  padding: 10px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 500%;
+  height:auto;
+
+}
+
+h1{
+  padding: 50px;
+  color:#AC0066;
+}
 
 .col{
   align-content: center;
